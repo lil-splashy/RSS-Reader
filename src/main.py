@@ -1,17 +1,15 @@
 # Goal is to read RSS feeds 
+###############Done####################
 
+# UI to read through it in a better way
 
 ############# To be Added #############
 
-
-# UI to read through it in a better way
 # Add Extra Feeds - Possibly Database
-
 # Integrate with the discord bot and post in te RSS channel 
-
 # Have automatic updates instead of needing to be run
-
-# Let this be called when it is setup
+# Remove the Table and clean up the display of content
+# Reformat Time of publishing to be more readable
 
 #######################################
 import feedparser
