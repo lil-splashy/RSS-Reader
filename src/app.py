@@ -10,7 +10,6 @@ from tkinter import font
 from turtle import color
 
 from matplotlib.font_manager import font_family_aliases
-import main as content
 import PySimpleGUI as sg
 from main import feed_parse
 from main import feed
@@ -26,7 +25,7 @@ def main():
     # Border Width
     borders = 0
 
-    
+
 
     layout= [
         [sg.Text(feed_parse(), background_color=("#222"))],
