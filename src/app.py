@@ -1,6 +1,6 @@
 # Creating the APP and GUI
 
-from ctypes import alignment
+from ctypes import alignment, resize
 import os
 import time
 import tkinter as tk
@@ -43,7 +43,8 @@ def main():
         font=font,
         no_titlebar=True,
         grab_anywhere=True,
-        size=(900, 500)
+        size=(900, 500),
+        
         )
 
     #  Create Refresh Timer
@@ -54,6 +55,9 @@ def main():
     #     refresh = 1
     #     return(refresh)
     # refresh_timer()
+
+
+
     # Create Event Loop 
     while True:
         event, values = window.read()
