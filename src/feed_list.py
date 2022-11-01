@@ -8,3 +8,5 @@ urls = ['https://n-o-d-e.net/rss/rss.xml', 'https://phillymesh.net/post/index.xm
 
 
 #   I want this to be where I store the Database or at least the database function and integrations because SQL would be a whole lot better. 
+
+# Maybe more manipulation / connection to the database
